@@ -5,7 +5,7 @@ const handScore_1 = require("./models/handScore");
 try {
     const firstHand = process.argv && process.argv[2];
     const secondHand = process.argv && process.argv[3];
-    if (firstHand || secondHand) {
+    if (firstHand && secondHand) {
         const bothHandsData = [...firstHand, ...secondHand];
         const inputValidation = validateHandsInput(bothHandsData);
         if (!inputValidation) {

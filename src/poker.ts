@@ -5,7 +5,7 @@ try {
     const firstHand: string = process.argv && process.argv[2];
     const secondHand: string = process.argv && process.argv[3];
 
-    if (firstHand || secondHand) {
+    if (firstHand && secondHand) {
         const bothHandsData = [...firstHand, ...secondHand];
         const inputValidation = validateHandsInput(bothHandsData);
 
