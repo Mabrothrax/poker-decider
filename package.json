@@ -1,0 +1,22 @@
+{
+  "name": "poker_resolver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/poker.js",
+  "scripts": {
+    "start": "nodemon dist/poker.js"
+  },
+  "author": "Adrian Mucha",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.7.4",
+    "@babel/core": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "@babel/register": "^7.18.9",
+    "ts-node": "^10.9.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "nodemon": "^2.0.20"
+  }
+}
